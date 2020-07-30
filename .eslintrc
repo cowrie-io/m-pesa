@@ -1,0 +1,25 @@
+{
+    "env": {
+        "es6": true,
+        "jest": true,
+        "node": true,
+        "commonjs": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+        "max-len": [
+            1,
+            120
+        ],
+        "operator-linebreak": [1, "before"],
+        "multiline-ternary": [1, "always"]
+    }
+}

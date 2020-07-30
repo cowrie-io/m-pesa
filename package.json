@@ -1,0 +1,55 @@
+{
+    "name": "@cowrie/m-pesa",
+    "version": "1.0.0-beta",
+    "license": "MIT",
+    "description": "Cowrie M-PESA is a JavaScript utility that allows you to effortlessly use the M-PESA API in your applications",
+    "homepage": "https://github.com/cowrie-io/m-pesa#readme",
+    "bugs": {
+        "url": "https://github.com/cowrie-io/m-pesa/issues",
+        "email": "howardmnengwa@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cowrie-io/m-pesa"
+    },
+    "engine": {
+        "node": ">= 0.11"
+    },
+    "main": "dist/index.js",
+    "module": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "test:debug": "jest --watch",
+        "lint": "eslint src/**/*.js",
+        "prepublish": "npm run build",
+        "build": "webpack --config build/webpack.prod.js",
+        "debug": "webpack-dev-server --config build/webpack.dev.js"
+    },
+    "keywords": [
+        "Kenya",
+        "online",
+        "M-PESA",
+        "JavaScript",
+        "E-commerce",
+        "Till Number",
+        "Buy Goods and Services"
+    ],
+    "author": "Howard Mnengwa <howardmnengwa@gmail.com> (https://mnengwa.github.com/)",
+    "devDependencies": {
+        "@babel/core": "^7.10.4",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^26.1.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "eslint": "^7.4.0",
+        "eslint-config-google": "^0.14.0",
+        "jest": "^26.1.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^5.0.3"
+    }
+}
