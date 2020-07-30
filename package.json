@@ -21,7 +21,7 @@
         "test": "jest",
         "test:debug": "jest --watch",
         "lint": "eslint src/**/*.js",
-        "prepublish": "npm run build",
+        "prepublishOnly": "npm run build",
         "build": "webpack --config build/webpack.prod.js",
         "debug": "webpack-dev-server --config build/webpack.dev.js"
     },
